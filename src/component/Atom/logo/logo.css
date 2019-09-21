@@ -1,0 +1,17 @@
+
+.a__logo {
+    width: 200px;
+}
+@media screen and (min-width: 728px) {
+
+}
+@media screen and (min-width: 992px) {
+    .a__logo {
+        width: 220px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .a__logo {
+        width: 250px;
+    }
+}

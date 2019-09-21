@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.app {
+    width: 100%;
+    height: 100%;
+    background-color: #f53021;
+}
+.pointer{
+    cursor: pointer;
+}
+
+
+

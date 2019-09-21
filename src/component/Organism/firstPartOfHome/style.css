@@ -1,0 +1,110 @@
+.side_one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./../../../media/img/home-bg.jpg");
+    background-size: cover;
+    overflow: hidden;
+    background-position: 50%;
+    /*background-color: blue;*/
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (min-width: 728px) {
+
+}
+
+@media screen and (min-width: 992px) {
+    .animateSide_one {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        z-index: 3;
+    }
+
+    .animate {
+        position: absolute;
+        z-index: 3;
+    }
+    .anim1 {
+        width: 130px;
+        height: 300px;
+        background-color: #16444c;
+        opacity: 0.4;
+        top: 30%;
+        animation-name: anim1;
+        animation-duration: 10s;
+        animation-timing-function: ease-in-out;
+        animation-delay: 1s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+    @keyframes anim1 {
+        0% {
+            top: 30%;
+        }
+        100% {
+            animation-delay:2s;
+            top: 40%;
+        }
+    }
+    .anim2 {
+        width: 100px;
+        height: 250px;
+        background-color: #16444c;
+        opacity: 0.4;
+        top: 30%;
+        left:30vw;
+        animation-name: anim2;
+        animation-duration: 8s;
+        animation-timing-function: ease-in-out;
+        animation-delay: 3s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+    @keyframes anim2 {
+        0% {
+            top: 30%;
+        }
+        100% {
+            animation-delay: 2s;
+            top: 43%;
+        }
+    }
+    .anim3 {
+        width: 100px;
+        height: 250px;
+        background-color: #16444c;
+        opacity: 0.4;
+        top: 30%;
+        right:30vw;
+        animation-name: anim3;
+        animation-duration: 7s;
+        animation-timing-function: ease-in-out;
+        animation-delay: 3s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+    @keyframes anim3 {
+        0% {
+            top: 30%;
+        }
+        100% {
+            animation-delay: 2s;
+            top: 47%;
+        }
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .anim2{
+        left:35vw;
+    }
+    .anim3 {
+        right:35vw;
+    }
+
+}
