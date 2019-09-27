@@ -19,8 +19,10 @@ class Home extends Component {
     render() {
         return (
             <div className="app" >
+                <img src="./media/img/backGround/waves.png" alt={'Logo'} className="imageBack"/>
                 <FirstPartOfHome
                 />
+
             </div>
         );
     }
