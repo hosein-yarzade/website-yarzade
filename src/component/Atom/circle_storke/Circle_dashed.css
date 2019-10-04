@@ -1,0 +1,43 @@
+
+.dashed-circle {
+    width: 250px;
+    height: 250px;
+}
+
+.dashed-circle {
+    width: 240px;
+    height: 240px;
+    stroke-width: 1;
+    stroke: #8800aa;
+    position: absolute;
+    transform: rotate(0deg);
+    animation: 50s linear infinite;
+    animation-name: anim2;
+
+}
+
+@keyframes anim2 {
+
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+
+}
+@media screen and (min-width: 728px) {
+
+}
+
+@media screen and (min-width: 992px) {
+    .a__logo {
+        width: 220px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .a__logo {
+        width: 250px;
+    }
+}

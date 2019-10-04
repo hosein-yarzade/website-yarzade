@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import FirstPartOfHome from "../../component/Organism/firstPartOfHome/firstPartOfHome";
+import FirstPartOfHome from "./../../component/Organism/firstPartOfHome/firstPartOfHome";
+import MenuContainer from "./../../component/Molecules/menuContainer/menuContainer";
 import './App.css';
 
 class Home extends Component {
@@ -19,10 +20,10 @@ class Home extends Component {
     render() {
         return (
             <div className="app" >
-                <img src="./media/img/backGround/waves.png" alt={'Logo'} className="imageBack"/>
+                <img src="./media/img/backGround/waves.png" alt={'Circle_storke'} className="imageBack"/>
+                <MenuContainer/>
                 <FirstPartOfHome
                 />
-
             </div>
         );
     }

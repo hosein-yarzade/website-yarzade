@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import LogoWithText from "../../Molecules/logoWithText/logoWithText";
 
 import './style.css';
+import Circle_dashed from "../../Atom/circle_storke/Circle_dashed";
 
 class FirstPartOfHome extends Component {
     constructor(props) {
@@ -12,7 +13,10 @@ class FirstPartOfHome extends Component {
     render() {
         return (
             <div className="side_one">
-                <LogoWithText/>
+                {/*<LogoWithText/>*/}
+
+                    <Circle_dashed/>
+
             </div>
         );
     }

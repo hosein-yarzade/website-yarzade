@@ -15,7 +15,6 @@ import App from './pages/home/App';
 // import {Router, Route} from 'react-router-dom';
 import { BrowserRouter, Route,Switch } from 'react-router-dom';
 
-
 ReactDOM.render(
     <BrowserRouter>
         <Switch>
