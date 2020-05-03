@@ -1,0 +1,32 @@
+.a__textPart{
+    font-size:14px;
+    font-weight: lighter;
+    /*letter-spacing: 37px;*/
+    transition: opacity 3s ;
+    font-family:sans-serif ,Roboto ,Helvetica, Arial  ;
+    color: #1e1e1e;
+}
+@media screen and (min-width: 728px) {
+    .a__textPart{
+        font-size:15px;
+        font-weight: lighter;
+    }
+}
+@media screen and (min-width: 992px) {
+    .a__textPart{
+        font-size:18px;
+        font-weight: lighter;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .a__textPart{
+        font-size:20px;
+        font-weight: lighter;
+    }
+}
+@media screen and (min-width: 1800px) {
+    .a__textPart{
+        font-size:22px;
+        font-weight: lighter;
+    }
+}

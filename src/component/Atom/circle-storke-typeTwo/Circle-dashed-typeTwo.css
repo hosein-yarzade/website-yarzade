@@ -1,0 +1,36 @@
+
+.view-dashed-circle{
+    /*background-color: #00b6da;*/
+}
+.dashed-circle-typeTwo {
+    width:100%;
+    height: 100%;
+    transform: rotate(0deg);
+    border-radius: 100%;
+    border: #C29E3D dashed 2px  ;
+    animation: 35s linear infinite;
+    animation-name: dashed-circle ;
+
+}
+@keyframes dashed-circle  {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-360deg);
+    }
+}
+@media screen and (min-width: 728px) {
+
+}
+
+@media screen and (min-width: 992px) {
+
+}
+
+@media screen and (min-width: 1200px) {
+
+}@media screen and (min-width: 1800px) {
+
+}
+

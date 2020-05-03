@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b57d0eb1-4c04-4cd7-bb41-75bc3b64088b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/media/personal/hosein 1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/Atom/circle/circle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/Atom/circle/circle.js" afterDir="false" />
+    <list default="true" id="b57d0eb1-4c04-4cd7-bb41-75bc3b64088b" name="Default Changelist" comment="first new design commit">
+      <change afterPath="$PROJECT_DIR$/src/component/Atom/circle-storke-typeTwo/Circle-dashed-typeTwo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Atom/circle-storke-typeTwo/Circle-dashed-typeTwo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Atom/textPart/textPart.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Atom/textPart/textPart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Atom/titleText/titleText.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Atom/titleText/titleText.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Atom/titleTextLeft/titleTextLeft.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Atom/titleTextLeft/titleTextLeft.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Organism/secoundPartOfHome/secondPartOfHome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Organism/secoundPartOfHome/secondPartOfHome.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/IndieFlower-Regular.ttf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/media/img/imagesParts/builder.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/media/img/imagesParts/image.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/media/img/imagesParts/test.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Atom/circle_storke/Circle_dashed.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Atom/circle_storke/Circle_dashed.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Atom/circle/circle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Atom/circle/circle.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/Atom/circle_storke/Circle_dashed.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Atom/circle_storke/Circle_dashed.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Molecules/menuContainer/menuContainer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Molecules/menuContainer/menuContainer.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/Organism/firstPartOfHome/firstPartOfHome.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Organism/firstPartOfHome/firstPartOfHome.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/Organism/firstPartOfHome/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Organism/firstPartOfHome/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/home/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +45,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/react native/tests/tcpTest5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/component/Organism/secoundPartOfHome" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -56,13 +59,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\my website\source\website-yarzade\public\media\personal" />
-      <recent name="D:\my website\source\website-yarzade\src\component\Atom\circle" />
-      <recent name="E:\react.js\hosein-yarzade\src\component\Atom\menuItem" />
-      <recent name="E:\react.js\hosein-yarzade\src\component\Molecules" />
-      <recent name="E:\react.js\hosein-yarzade\src\component\Atom\circle_storke" />
+      <recent name="D:\my website\source\website-yarzade\src\component\Organism\secoundPartOfHome" />
+      <recent name="D:\my website\source\website-yarzade\src\component\Molecules\containerTextPart" />
+      <recent name="D:\my website\source\website-yarzade\src\component\Atom\textPart" />
+      <recent name="D:\my website\source\website-yarzade\src\component\Atom\titleTextLeft" />
+      <recent name="D:\my website\source\website-yarzade\public\media\fonts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\my website\source\website-yarzade\src\" />
       <recent name="E:\react.js\hosein-yarzade\src\component\Molecules\menuContainer" />
       <recent name="E:\react.js\hosein-yarzade\src\pages\home" />
       <recent name="E:\react.js\hosein-yarzade\src" />
@@ -93,7 +97,7 @@
       <workItem from="1569783562901" duration="8788000" />
       <workItem from="1570207007548" duration="10957000" />
       <workItem from="1588386251036" duration="15596000" />
-      <workItem from="1588474081510" duration="12308000" />
+      <workItem from="1588474081510" duration="38516000" />
     </task>
     <task id="LOCAL-00001" summary="make atomic design &amp; add first part at home page">
       <created>1569098494312</created>
@@ -109,7 +113,21 @@
       <option name="project" value="LOCAL" />
       <updated>1569615747248</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="first new design commit">
+      <created>1588491825481</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1588491825481</updated>
+    </task>
+    <task id="LOCAL-00004" summary="first new design commit">
+      <created>1588491977546</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1588491977546</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -127,17 +145,22 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="make atomic design &amp; add first part at home page" />
     <MESSAGE value="fix background image" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix background image" />
+    <MESSAGE value="first new design commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first new design commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="585" y="115" key="CommitChangelistDialog2" timestamp="1588491823368">
+    <state x="684" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588512906605">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1588491823368" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1588491690532">
+    <state x="684" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1588512906605" />
+    <state x="585" y="115" key="CommitChangelistDialog2" timestamp="1588492029249">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1588491690532" />
+    <state x="585" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1588492029249" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1588492729315">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1588492729315" />
     <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1588386453315">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -154,6 +177,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588386453315" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1588492347205">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588492347205" />
     <state x="656" y="252" width="607" height="536" key="find.popup" timestamp="1588484012773">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

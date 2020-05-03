@@ -1,0 +1,52 @@
+
+.a__titleTextLeftContainer{
+    position: absolute;
+    transition: right 4s ;
+    bottom:15%;
+}
+.a__titleTextLeft{
+    font-size:1cm;
+    font-weight: lighter;
+    letter-spacing: 35px;
+    font-family:MyFont ,Roboto ,sans-serif ,Helvetica, Arial  ;
+    color: #fff;
+}
+
+@media screen and (min-width: 728px) {
+    .a__titleTextLeftContainer{
+        bottom:10%;
+    }
+    .a__titleTextLeft{
+        font-size:2.2cm;
+        font-weight: lighter;
+        letter-spacing: 40px;
+    }
+}
+@media screen and (min-width: 992px) {
+    .a__titleTextLeft{
+        font-size:2.5cm;
+        font-weight: lighter;
+        letter-spacing: 75px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .a__titleTextLeftContainer{
+        bottom:3%;
+    }
+    .a__titleTextLeft{
+        font-size:3.5cm;
+        font-weight: lighter;
+        letter-spacing: 75px;
+    }
+}
+@media screen and (min-width: 1800px) {
+    .a__titleTextLeftContainer{
+        bottom:0%;
+        z-index:10 ;
+    }
+    .a__titleTextLeft{
+        font-size:4.5cm;
+        font-weight: lighter;
+        letter-spacing: 105px;
+    }
+}

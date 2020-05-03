@@ -12,7 +12,7 @@ class Circle_dashed extends Component {
         return (
 <div className="view-dashed-circle">
             <svg className="dashed-circle">
-                <circle calassName="a_circleDashed"  stroke-width="2" stroke="#b9870b" stroke-dasharray="4,10"
+                <circle calassName="a_circleDashed"  stroke-width="2" stroke="#C29E3D" stroke-dasharray="4,6"
                         fill="transparent" r="50%" cx={"50%"} cy="50%"></circle>
             </svg>
 </div>

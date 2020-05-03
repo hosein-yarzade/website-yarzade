@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 
-import './circle.css';
+import './secondPartOfHome.css';
 
-class Circle extends Component {
+class SecondPartOfHome extends Component {
     constructor(props){
         super(props);
     }
@@ -10,10 +10,11 @@ class Circle extends Component {
 
     render() {
         return (
-<div className={"a__circle"}>
+<div className="o__sideTwo">
+
 </div>
         );
     }
 }
 
-export default Circle;
+export default SecondPartOfHome;

@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'MyFont';
+    src: local('MyFont'), url(../../../fonts/IndieFlower-Regular.ttf) format('woff');
+}
+.a__titleTextContainer{
+    position: absolute;
+    transition: left 3s ;
+    top:15%;
+}
+.a__titleText{
+    font-size:1cm;
+    font-weight: lighter;
+    letter-spacing: 37px;
+    font-family:MyFont ,Roboto ,sans-serif ,Helvetica, Arial  ;
+    color: #ffffff;
+}
+
+@media screen and (min-width: 728px) {
+    .a__titleText{
+        font-size:2.2cm;
+        font-weight: lighter;
+        letter-spacing: 40px;
+    }
+}
+@media screen and (min-width: 992px) {
+    .a__titleText{
+        font-size:2.5cm;
+        font-weight: lighter;
+        letter-spacing: 75px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .a__titleTextContainer{
+        top:8%;
+    }
+    .a__titleText{
+        font-size:3.5cm;
+        font-weight: lighter;
+        letter-spacing: 75px;
+    }
+}
+@media screen and (min-width: 1800px) {
+    .a__titleTextContainer{
+        top:2%;
+    }
+    .a__titleText{
+        font-size:4.5cm;
+        font-weight: lighter;
+        letter-spacing: 105px;
+    }
+}
