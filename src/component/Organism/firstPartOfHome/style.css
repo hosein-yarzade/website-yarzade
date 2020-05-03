@@ -1,36 +1,110 @@
 .side_one {
     display: flex;
+    flex:1;
     justify-content: center;
-    align-items: center;
-    /*background-image: url("./../../../media/img/home-bg.jpg");*/
-    /*background-size: cover;*/
-    /*overflow: hidden;*/
-    /*background-position: 50%;*/
-    /*background-color: blue;*/
     width: 100%;
     height: 100%;
 }
-.side_circle-dashed{
-    width: 50%;
-    height: 50%;
-}
-@media screen and (min-width: 728px) {
+.personal-image-one {
+    width: 55%;
+    object-fit: contain;
+    position: relative;
+    z-index: 5;
 
 }
 
-@media screen and (min-width: 992px) {
-    .animateSide_one {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        position: absolute;
-        z-index: 3;
+.circle-dashed-top-left {
+    position: absolute;
+    top:-15%;
+    left:-10%;
+}
+.circle-dashed-center{
+    position: absolute;
+    top:85%;
+}
+.o__container-circle-one{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top:30%;
+    right:5%;
+    animation: 15s running infinite;
+    animation-name: circle-one ;
+}
+@keyframes circle-one  {
+
+    0%{
+        top:30%;
+        right:5%;
+    }
+    25% {
+        top:37%;
+        right:8%;
+    }
+    50% {
+        top:32%;
+        right:1%;
+    }
+    75% {
+        top:30%;
+        right:3%;
+    }
+    100% {
+        top:30%;
+        right:5%;
     }
 
-    .animate {
+}
+@media screen and (min-width: 728px) {
+    .personal-image-one {
+        width: 40%;
+    }
+    .circle-dashed-top-left {
         position: absolute;
-        z-index: 3;
+        top:-20%;
+        left:-15%;
+    }
+    .circle-dashed-center{
+        top:80%;
+    }
+
+.o__container-circle-one{
+    width: 200px;
+    height: 200px;
+    top:30%;
+    right:15%;
+    animation: 15s running infinite;
+    animation-name: circle-one-mobile ;
+}
+@keyframes circle-one-mobile  {
+
+    0%{
+        top:30%;
+        right:15%;
+    }
+    25% {
+        top:37%;
+        right:20%;
+    }
+    50% {
+        top:32%;
+        right:10%;
+    }
+    75% {
+        top:30%;
+        right:14%;
+    }
+    100% {
+        top:30%;
+        right:15%;
+    }
+
+}
+}
+@media screen and (min-width: 992px) {
+    .personal-image-one {
+        width: 30%;
+        left:-30%;
     }
     .anim1 {
         width: 130px;
@@ -54,60 +128,76 @@
             top: 40%;
         }
     }
-    .anim2 {
-        width: 100px;
-        height: 250px;
-        background-color: #16444c;
-        opacity: 0.4;
-        top: 30%;
-        left:30vw;
-        animation-name: anim2;
-        animation-duration: 8s;
-        animation-timing-function: ease-in-out;
-        animation-delay: 3s;
-        animation-iteration-count: infinite;
-        animation-direction: alternate;
+    .circle-dashed-top-left {
+        position: absolute;
+        top:-25%;
+        left:-20%;
     }
-    @keyframes anim2 {
-        0% {
-            top: 30%;
+    .circle-dashed-center{
+        top:70%;
+    }
+    .o__container-circle-one{
+
+        top:35%;
+        left:30%;
+        animation: 15s running infinite;
+        animation-name: circle-one-mobile ;
+    }
+    @keyframes circle-one-mobile  {
+
+        0%{
+            top:35%;
+            left:30%;
+        }
+        25% {
+            top:37%;
+            left:27%;
+        }
+        50% {
+            top:39%;
+            left:26%;
+        }
+        75% {
+            top:37%;
+            left:27%;
         }
         100% {
-            animation-delay: 2s;
-            top: 43%;
+            top:35%;
+            left:30%;
         }
-    }
-    .anim3 {
-        width: 100px;
-        height: 250px;
-        background-color: #16444c;
-        opacity: 0.4;
-        top: 30%;
-        right:30vw;
-        animation-name: anim3;
-        animation-duration: 7s;
-        animation-timing-function: ease-in-out;
-        animation-delay: 3s;
-        animation-iteration-count: infinite;
-        animation-direction: alternate;
-    }
-    @keyframes anim3 {
-        0% {
-            top: 30%;
-        }
-        100% {
-            animation-delay: 2s;
-            top: 47%;
-        }
+
     }
 }
 
-@media screen and (min-width: 1200px) {
-    .anim2{
-        left:35vw;
-    }
-    .anim3 {
-        right:35vw;
-    }
 
+@media screen and (min-width: 1200px) {
+    .o__container-circle-one{
+
+        top:35%;
+        left:30%;
+        animation: 15s running infinite;
+        animation-name: circle-one-mobile ;
+    }
+    .personal-image-one {
+        width: 28%;
+        left:-30%;
+    }
+    .circle-dashed-top-left {
+        position: absolute;
+        top:-70%;
+        left:-20%;
+    }
+    .circle-dashed-center{
+        top:65%;
+    }
+}
+@media screen and (min-width: 1800px) {
+    .circle-dashed-top-left {
+        position: absolute;
+        top:-80%;
+        left:-15%;
+    }
+    .circle-dashed-center{
+        top:55%;
+    }
 }

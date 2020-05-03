@@ -2,123 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b57d0eb1-4c04-4cd7-bb41-75bc3b64088b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/component/Atom/circle_storke/Circle_dashed.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/Atom/circle_storke/Circle_dashed.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/Atom/menuItem/menuItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/Atom/menuItem/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/Molecules/menuContainer/menuContainer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/Molecules/menuContainer/menuContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/media/personal/hosein 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Atom/circle/circle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Atom/circle/circle.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/media/img/imagesParts/builder.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/media/img/imagesParts/image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/media/img/imagesParts/test.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Atom/circle_storke/Circle_dashed.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Atom/circle_storke/Circle_dashed.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Atom/circle_storke/Circle_dashed.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Atom/circle_storke/Circle_dashed.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Molecules/menuContainer/menuContainer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Molecules/menuContainer/menuContainer.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/Organism/firstPartOfHome/firstPartOfHome.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Organism/firstPartOfHome/firstPartOfHome.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/Organism/firstPartOfHome/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Organism/firstPartOfHome/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/home/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/home/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/App.js" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/.tmp/" />
-    <ignored path="$PROJECT_DIR$/temp/" />
-    <ignored path="$PROJECT_DIR$/tmp/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1644865616">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="6" />
-          <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.15" value="1" />
-          <entry key="project.open.time.19" value="1" />
-          <entry key="project.open.time.21" value="1" />
-          <entry key="project.open.time.22" value="1" />
-          <entry key="project.open.time.29" value="1" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="8" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="css" value="21" />
-          <entry key="html" value="4" />
-          <entry key="ico" value="3" />
-          <entry key="jpg" value="3" />
-          <entry key="js" value="30" />
-          <entry key="json" value="4" />
-          <entry key="png" value="9" />
-          <entry key="txt" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CSS" value="21" />
-          <entry key="HTML" value="4" />
-          <entry key="Image" value="15" />
-          <entry key="JSON" value="4" />
-          <entry key="JavaScript" value="30" />
-          <entry key="PLAIN_TEXT" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.js.language.service.starts">
-        <counts>
-          <entry key="ESLintLanguageService" value="7" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="css" value="335" />
-          <entry key="html" value="16" />
-          <entry key="js" value="284" />
-          <entry key="txt" value="74" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="CSS" value="335" />
-          <entry key="HTML" value="16" />
-          <entry key="JavaScript" value="284" />
-          <entry key="PLAIN_TEXT" value="74" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/component/Molecules/menuContainer/menuContainer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="38" column="82" selection-start-line="38" selection-start-column="82" selection-end-line="38" selection-end-column="82" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/component/Molecules/menuContainer/menuContainer.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1016">
-              <caret line="37" column="43" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/component/Atom/circle_storke/Circle_dashed.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-113">
-              <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -128,217 +30,47 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>react-router-dom</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/component/Atom/textDescribeLogo/textDescribeLogo.js" />
-        <option value="$PROJECT_DIR$/src/component/Atom/logo/logo.js" />
-        <option value="$PROJECT_DIR$/src/pages/home/App.css" />
-        <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/src/component/Atom/circle_storke/logo.js" />
-        <option value="$PROJECT_DIR$/src/component/Atom/circle_storke/circle_storke.js" />
-        <option value="$PROJECT_DIR$/src/component/Atom/circle_storke/Circle_stroke.js" />
-        <option value="$PROJECT_DIR$/src/component/Organism/firstPartOfHome/style.css" />
-        <option value="$PROJECT_DIR$/src/component/Organism/firstPartOfHome/firstPartOfHome.js" />
-        <option value="$PROJECT_DIR$/src/pages/home/home.css" />
-        <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/pages/home/home.js" />
-        <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/component/Atom/circle_storke/Circle_dashed.js" />
-        <option value="$PROJECT_DIR$/src/pages/home/App.js" />
-        <option value="$PROJECT_DIR$/src/component/Molecules/menuContainer/menuContainer.js" />
-        <option value="$PROJECT_DIR$/src/component/Atom/circle_storke/Circle_dashed.css" />
-        <option value="$PROJECT_DIR$/src/component/Molecules/menuContainer/menuContainer.css" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
-    <package-json value="$PROJECT_DIR$/package.json" />
-  </component>
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/node_modules" />
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths>
-      <path value="$PROJECT_DIR$/package.json" />
-    </packageJsonPaths>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1" />
-    <option name="width" value="1928" />
-    <option name="height" value="1056" />
-  </component>
+  <component name="ProjectId" id="1bKgYs5CA727oFuZZypVN8ktdSk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="hosein-yarzade" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hosein-yarzade" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hosein-yarzade" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hosein-yarzade" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hosein-yarzade" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hosein-yarzade" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="media" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hosein-yarzade" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hosein-yarzade" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="media" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hosein-yarzade" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hosein-yarzade" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="media" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="icons" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hosein-yarzade" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hosein-yarzade" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="media" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="logo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hosein-yarzade" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hosein-yarzade" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hosein-yarzade" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hosein-yarzade" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="component" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hosein-yarzade" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hosein-yarzade" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="component" type="462c0819:PsiDirectoryNode" />
-              <item name="Atom" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hosein-yarzade" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hosein-yarzade" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="component" type="462c0819:PsiDirectoryNode" />
-              <item name="Atom" type="462c0819:PsiDirectoryNode" />
-              <item name="circle_storke" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hosein-yarzade" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hosein-yarzade" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="component" type="462c0819:PsiDirectoryNode" />
-              <item name="Molecules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hosein-yarzade" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hosein-yarzade" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="component" type="462c0819:PsiDirectoryNode" />
-              <item name="Molecules" type="462c0819:PsiDirectoryNode" />
-              <item name="menuContainer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hosein-yarzade" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hosein-yarzade" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="component" type="462c0819:PsiDirectoryNode" />
-              <item name="Organism" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hosein-yarzade" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hosein-yarzade" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hosein-yarzade" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hosein-yarzade" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../kia/website/kia" />
+    <property name="last_opened_file_path" value="D:/react native/tests/tcpTest5" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.standard" value="project" />
-    <property name="node.js.selected.package.eslint" value="E:\react.js\hosein-yarzade\node_modules\eslint" />
+    <property name="node.js.selected.package.eslint" value="E:/react.js/hosein-yarzade/node_modules/eslint" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\my website\source\website-yarzade\public\media\personal" />
+      <recent name="D:\my website\source\website-yarzade\src\component\Atom\circle" />
+      <recent name="E:\react.js\hosein-yarzade\src\component\Atom\menuItem" />
+      <recent name="E:\react.js\hosein-yarzade\src\component\Molecules" />
+      <recent name="E:\react.js\hosein-yarzade\src\component\Atom\circle_storke" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\react.js\hosein-yarzade\src\component\Molecules\menuContainer" />
       <recent name="E:\react.js\hosein-yarzade\src\pages\home" />
       <recent name="E:\react.js\hosein-yarzade\src" />
       <recent name="E:\react.js\hosein-yarzade\public\media\img\backGround" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\react.js\hosein-yarzade\src\component\Atom\menuItem" />
-      <recent name="E:\react.js\hosein-yarzade\src\component\Molecules" />
-      <recent name="E:\react.js\hosein-yarzade\src\component\Atom\circle_storke" />
-      <recent name="E:\react.js\hosein-yarzade\public\media\img\backGround" />
-      <recent name="E:\react.js\hosein-yarzade\src\media\img" />
-    </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
-    <configuration name="hosein-yarzade" type="JavascriptDebugType" factoryName="JavaScript Debug" uri="http://localhost:3000">
+    <configuration name="hosein-yarzade" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
   </component>
@@ -360,6 +92,8 @@
       <workItem from="1569611738525" duration="4046000" />
       <workItem from="1569783562901" duration="8788000" />
       <workItem from="1570207007548" duration="10957000" />
+      <workItem from="1588386251036" duration="15596000" />
+      <workItem from="1588474081510" duration="12308000" />
     </task>
     <task id="LOCAL-00001" summary="make atomic design &amp; add first part at home page">
       <created>1569098494312</created>
@@ -378,9 +112,6 @@
     <option name="localTasksCounter" value="3" />
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35815000" />
-  </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -390,245 +121,38 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="npm" order="2" side_tool="true" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.38937092" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.23210412" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50052685" side_tool="true" weight="0.329718" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49947312" visible="true" weight="0.2733189" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="npm" order="2" side_tool="true" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.23210412" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50052685" side_tool="true" weight="0.329718" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49947312" weight="0.329718" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout-to-restore>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="make atomic design &amp; add first part at home page" />
     <MESSAGE value="fix background image" />
     <option name="LAST_COMMIT_MESSAGE" value="fix background image" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/robots.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/manifest.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/logo512.png" />
-    <entry file="file://$PROJECT_DIR$/src/App.test.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/serviceWorker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-189">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/media/img/icons/loader2.png" />
-    <entry file="file://$PROJECT_DIR$/public/media/img/icons/respect.png" />
-    <entry file="file://$PROJECT_DIR$/src/component/Atom/textDescribeLogo/textDescribeLogo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/Molecules/logoWithText/logoWithText.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/media/img/backGround/waves.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/media/img/home-bg.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="54" lean-forward="true" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
-          <folding>
-            <element signature="n#style#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/Atom/logo/logo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/Organism/firstPartOfHome/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/home/home.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/home/home.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="10" column="46" lean-forward="true" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#198#224#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/home/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/Organism/firstPartOfHome/firstPartOfHome.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/home/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/Atom/circle_storke/Circle_dashed.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/Atom/menuItem/style.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/logo192.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/favicon.ico">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/media/img/logo/logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/Atom/menuItem/menuItem.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/media/img/icons/close.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/Molecules/menuContainer/menuContainer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="38" column="82" selection-start-line="38" selection-start-column="82" selection-end-line="38" selection-end-column="82" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/Molecules/menuContainer/menuContainer.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1016">
-          <caret line="37" column="43" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/Atom/circle_storke/Circle_dashed.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-113">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1588491690532">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1588491690532" />
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1588386453315">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588386453315" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1588386453314">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588386453314" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1588386453314">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588386453314" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1588386453315">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588386453315" />
+    <state x="656" y="252" width="607" height="536" key="find.popup" timestamp="1588484012773">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="252" width="607" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588484012773" />
   </component>
 </project>

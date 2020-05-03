@@ -4,6 +4,7 @@ import MenuContainer from "./../../component/Molecules/menuContainer/menuContain
 import './App.css';
 
 class Home extends Component {
+
     constructor(props) {
         super(props);
         this.state = {
@@ -20,7 +21,7 @@ class Home extends Component {
     render() {
         return (
             <div className="app" >
-                <img src="./media/img/backGround/waves.png" alt={'Circle_storke'} className="imageBack"/>
+
                 <MenuContainer/>
                 <FirstPartOfHome
                 />
