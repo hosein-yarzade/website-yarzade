@@ -10,9 +10,7 @@ class TitleText extends Component {
 
     render() {
         return (
-            <div style={{left:this.props.titleTextPlace }}  className={'a__titleTextContainer'}>
             <text className={'a__titleText'}>{this.props.titleText}</text>
-            </div>
         );
     }
 }

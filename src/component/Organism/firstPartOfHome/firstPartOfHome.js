@@ -19,14 +19,18 @@ class FirstPartOfHome extends Component {
         return (
             <div className="side_one">
                 {/*<LogoWithText/>*/}
-                <TitleText
+                 <div style={{left:this.props.titleTextPlace }}  className={'a__titleTextContainer'}>
+                    <TitleText
                     titleText={'Hosein'}
                     titleTextPlace={this.props.titleTextPlace}
                 />
+                 </div>
+                <div style={{right:this.props.titleTextPlaceLeft }}  className={'a__titleTextLeftContainer'}>
                 <TitleTextLeft
                     titleText={'Yarzade'}
                     titleTextPlaceLeft={this.props.titleTextPlaceLeft}
                 />
+                </div>
                 <div className={"o__container-textPart-one"}>
                     <TextPart
                                textPart={'front-end developer'}
@@ -37,7 +41,7 @@ class FirstPartOfHome extends Component {
                                textPart={'react native developer'}
                     />
                 </div>
-                <img src="./media/personal/hosein 1.png" alt={'hosein'} className={"personal-image-one"} />
+                <img src="./media/personal/hosein-1.png" alt={'hosein'} className={"personal-image-one"} />
                 <div className={"o__container-circle-one"}>
                     <Circle/>
                 </div>

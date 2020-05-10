@@ -1,22 +1,229 @@
 
 .o__sideTwo{
-display: block;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
     height: 100%;
-    background-color: #b4b4b4
+    background-color: #b4b4b4;
+    z-index:1
 }
+.o__titleTextContainerPart2{
+    position:relative;
+    transition: left 3s ;
+    top:15%;
+}
+.personal-image-second{
+    width: 55%;
+    object-fit: contain;
+    position: relative;
+    z-index: 5;
+}
+.titleTextContainer{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+.o__container-circle-one-partTwo{
+    width: 80px;
+    height: 80px;
+    top:-20%;
+    right:25%;
+    position: relative;
+    z-index: 1;
+    animation: 15s running infinite;
+    animation-name: circle-one-partTwo ;
+}
+.o__container-textPart-part2 {
+    display: flex;
+    align-items: center;
+    position:absolute;
+    line-height: 16px;
+    z-index: 5;
+    width: 90%;
+    height: 35%;
+    bottom: 5%;
+    transition: right 3s ;
+}
+@keyframes circle-one-partTwo  {
 
+    0%{
+        top:-20%;
+        right:25%;
+    }
+    25% {
+        top:-17%;
+        right:17%;
+    }
+    50% {
+        top:-10%;
+        right:15%;
+    }
+    75% {
+        top:-15%;
+        right:17%;
+    }
+    100% {
+        top:-20%;
+        right:25%;
+    }
+
+}
+.o__container-circleDashPart2{
+    width: 130px;
+    height: 130px;
+    position: relative;
+    z-index:1;
+    top:25%;
+    right: 35%;
+}
 @media screen and (min-width: 728px) {
+    .personal-image-second{
+        width: 47%;
+    }
+    .o__container-circle-one-partTwo{
+        width: 110px;
+        height: 110px;
 
+    }
+    .o__container-circleDashPart2{
+        width: 170px;
+        height: 170px;
+        top:16%;
+        right: 35%;
+    }
 }
 
 @media screen and (min-width: 992px) {
+    .o__container-textPart-part2 {
+        line-height: 25px;
+        z-index: 5;
+        width: 55%;
+        height: 35%;
+        bottom: 5%;
+        transition: left 4s ;
+    }
+    .personal-image-second{
+        width: 40%;
+        right: -27%;
+    }
+    .o__titleTextContainerPart2{
+        top:20%;
+    }
+    .o__container-circle-one-partTwo{
+        width: 150px;
+        height: 150px;
+        top:-20%;
+        right:-16%;
+        position: relative;
+        z-index: 1;
+        animation: 15s running infinite;
+        animation-name: circle-one-partTwo ;
+    }
+    @keyframes circle-one-partTwo  {
+
+        0%{
+            top:-20%;
+            right:-16%;
+        }
+        25% {
+            top:-17%;
+            right:-13%;
+        }
+        50% {
+            top:-25%;
+            right:-10%;
+        }
+        75% {
+            top:-22%;
+            right:-13%;
+        }
+        100% {
+            top:-20%;
+            right:-15%;
+        }
+
+    }
+    .o__container-circleDashPart2{
+        width: 210px;
+        height: 210px;
+        top:-10%;
+        right: 35%;
+    }
 
 }
-
 @media screen and (min-width: 1200px) {
-
+    .personal-image-second{
+        width: 35%;
+        right: -28%;
+    }
+    .o__titleTextContainerPart2{
+        top:25%;
+    }
+    .o__container-circleDashPart2{
+        width: 230px;
+        height: 230px;
+        top:-15%;
+        right: 35%;
+    }
+    .o__container-textPart-part2 {
+        line-height: 25px;
+        z-index: 5;
+        width: 50%;
+        height: 50%;
+        bottom: 5%;
+        transition: left 4s ;
+    }
 }@media screen and (min-width: 1800px) {
+    .personal-image-second{
+        width: 30%;
+        right: -30%;
+    }
+    .o__titleTextContainerPart2{
+        top:30%;
+    }
+    .o__container-circle-one-partTwo{
+        width: 150px;
+        height: 150px;
+        top:-18%;
+        right:-25%;
+        position: relative;
+        z-index: 1;
+        animation: 15s running infinite;
+        animation-name: circle-one-partTwo ;
+    }
+    @keyframes circle-one-partTwo  {
 
+        0%{
+            top:-18%;
+            right:-25%;
+        }
+        25% {
+            top:-17%;
+            right:-20%;
+        }
+        50% {
+            top:-25%;
+            right:-15%;
+        }
+        75% {
+            top:-20%;
+            right:-18%;
+        }
+        100% {
+            top:-18%;
+            right:-25%;
+        }
+
+    }
+    .o__container-circleDashPart2{
+        width: 260px;
+        height: 260px;
+        top:-22%;
+        right: 40%;
+    }
 }
 

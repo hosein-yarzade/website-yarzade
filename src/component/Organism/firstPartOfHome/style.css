@@ -1,4 +1,5 @@
 .side_one {
+    overflow-y: hidden;
     display: flex;
     flex:1;
     justify-content: center;
@@ -10,7 +11,6 @@
     object-fit: contain;
     position: relative;
     z-index: 5;
-
 }
 .circle-dashed-top-left {
     position: absolute;
@@ -19,45 +19,47 @@
 }
 .circle-dashed-center{
     position: absolute;
+    z-index: 2;
     top:85%;
 }
+.o__container-circle-fourth{
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    top:15%;
+    right:10%;
+}
 .o__container-circle-one{
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
     position: absolute;
     top:30%;
-    right:6%;
+    right:7%;
     animation: 15s running infinite;
     animation-name: circle-one ;
 }
-.o__container-circle-fourth{
-    width: 150px;
-    height: 150px;
-    position: absolute;
-    top:15%;
-    right:6%;
-}
+
 @keyframes circle-one  {
 
     0%{
         top:30%;
-        right:6%;
+        right:7%;
     }
     25% {
         top:37%;
-        right:8%;
+        right:5%;
     }
     50% {
         top:32%;
-        right:1%;
+        right:3%;
     }
     75% {
         top:30%;
-        right:3%;
+        right:4%;
     }
     100% {
         top:30%;
-        right:6%;
+        right:7%;
     }
 
 }
@@ -91,7 +93,13 @@
     right: 18%;
     top: 70%;
 }
+.a__titleTextContainer{
+    position: absolute;
+    transition: left 3s ;
+    top:15%;
+}
 @media screen and (min-width: 728px) {
+
     .personal-image-one {
         width: 40%;
     }
@@ -230,6 +238,9 @@
     }
 }
 @media screen and (min-width: 1200px) {
+    .a__titleTextContainer{
+        top:8%;
+    }
     .o__container-circle-one{
 
         top:35%;
@@ -271,6 +282,9 @@
     }
 }
 @media screen and (min-width: 1800px) {
+    .a__titleTextContainer{
+        top:2%;
+    }
     .circle-dashed-top-left {
         position: absolute;
         top:-80%;
