@@ -10,7 +10,9 @@ class TitleTextSmaller extends Component {
 
     render() {
         return (
+
             <text className={'a__titleTextLeftSmaller'}> {this.props.titleText}</text>
+
         );
     }
 }

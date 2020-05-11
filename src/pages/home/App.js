@@ -26,7 +26,7 @@ class Home extends Component {
             else{
                 this.setState({titleTextPlace:'25%',titleTextPlaceLeft:'15%'})
             }
-          }, 100);
+          }, 1000);
         window.addEventListener("scroll", function () {
                     let clientWidth = document.documentElement.clientWidth;
                     if (clientWidth<500){
