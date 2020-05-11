@@ -34,7 +34,7 @@ class Home extends Component {
                             that.setState({titleTextPlace : '5%', titleTextPlaceLeft : '1%'});
                         }
                         if (this.pageYOffset > 500) {
-                        that.setState({titleTextPlacePart2:'3%',textPlacePart2:'5%', titleTextPlace : '100%', titleTextPlaceLeft : '100%'});
+                        that.setState({titleTextPlacePart2:'3%',textPlacePart2:'5%',  titleTextPlaceLeft : '100%'});
                         }
                         // if(this.pageYOffset > 1400 || this.pageYOffset < 500){
                         //     that.setState({titleTextPlacePart2:'3%',textPlacePart2:'5%'});
@@ -45,7 +45,7 @@ class Home extends Component {
                         that.setState({ titleTextPlace : '25%', titleTextPlaceLeft : '15%'});
                     }
                     if (this.pageYOffset > 500) {
-                                that.setState({titleTextPlacePart2:'3%',textPlacePart2:'5%', titleTextPlace : '100%', titleTextPlaceLeft : '100%'});
+                                that.setState({titleTextPlacePart2:'3%',textPlacePart2:'5%',  titleTextPlaceLeft : '100%'});
                     }
                     // if(this.pageYOffset > 1400 || this.pageYOffset < 500){
                     //         that.setState({titleTextPlacePart2:'3%',textPlacePart2:'5%'});

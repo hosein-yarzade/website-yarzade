@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import LogoWithText from "../../Molecules/logoWithText/logoWithText";
 
-import './style.css';
+import './firstPartOfHome.css';
 import Circle_dashed from "../../Atom/circle_storke/Circle_dashed";
 import Circle from "../../Atom/circle/circle";
 import Circle_dashed_typeTwo from "../../Atom/circle-storke-typeTwo/Circle-dashed-typeTwo";
@@ -18,18 +18,19 @@ class FirstPartOfHome extends Component {
     render() {
         return (
             <div className="side_one">
-                {/*<LogoWithText/>*/}
+
                  <div style={{left:this.props.titleTextPlace }}  className={'a__titleTextContainer'}>
                     <TitleText
                     titleText={'Hosein'}
                     titleTextPlace={this.props.titleTextPlace}
                 />
                  </div>
+                <img src="./media/personal/hosein-1.png" alt={'hosein'} className={"personal-image-one"} />
                 <div style={{right:this.props.titleTextPlaceLeft }}  className={'a__titleTextLeftContainer'}>
-                <TitleTextLeft
-                    titleText={'Yarzade'}
-                    titleTextPlaceLeft={this.props.titleTextPlaceLeft}
-                />
+                    <TitleTextLeft
+                        titleText={'Yarzade'}
+                        titleTextPlaceLeft={this.props.titleTextPlaceLeft}
+                    />
                 </div>
                 <div className={"o__container-textPart-one"}>
                     <TextPart
@@ -41,7 +42,8 @@ class FirstPartOfHome extends Component {
                                textPart={'react native developer'}
                     />
                 </div>
-                <img src="./media/personal/hosein-1.png" alt={'hosein'} className={"personal-image-one"} />
+
+
                 <div className={"o__container-circle-one"}>
                     <Circle/>
                 </div>

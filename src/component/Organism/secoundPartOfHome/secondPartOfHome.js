@@ -11,7 +11,6 @@ class SecondPartOfHome extends Component {
         super(props);
     }
 
-
     render() {
         return (
 <div className="o__sideTwo">
@@ -30,7 +29,7 @@ class SecondPartOfHome extends Component {
     </div>
     <div className={"o__container-textPart-part2"} style={{left:this.props.textPlacePart2}}>
         <TextPart
-            textPart={'loreme 20   ffffffffffff ddddddddddddddd ddddddddddddd fffffffffffff fffffffffff ffffffffffffff ffffffffffffffff fffffffffffffffff ffffffffffffffff fffffffffff f'}
+            textPart={<p>lorem100</p>}
         />
     </div>
     <div className={"o__container-circleDashPart2"}>

@@ -81,6 +81,7 @@
     right: 35%;
 }
 @media screen and (min-width: 728px) {
+
     .personal-image-second{
         width: 47%;
     }
@@ -156,6 +157,7 @@
 
 }
 @media screen and (min-width: 1200px) {
+
     .personal-image-second{
         width: 35%;
         right: -28%;
@@ -178,6 +180,7 @@
         transition: left 4s ;
     }
 }@media screen and (min-width: 1800px) {
+
     .personal-image-second{
         width: 30%;
         right: -30%;

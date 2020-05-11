@@ -1,40 +1,46 @@
 
-
-.a__titleTextLeft{
-    font-size:0.9cm;
+.a__titleTextLeftSmaller{
+    font-size:0.5cm;
     font-weight: lighter;
-    letter-spacing: 32px;
+    letter-spacing: 25px;
     font-family:MyFont ,Roboto ,sans-serif ,Helvetica, Arial  ;
     color: #fff;
 }
 
 @media screen and (min-width: 728px) {
-
-    .a__titleTextLeft{
+    .a__titleTextLeftContainer{
+        bottom:10%;
+    }
+    .a__titleTextLeftSmaller{
         font-size:2.2cm;
         font-weight: lighter;
         letter-spacing: 40px;
     }
 }
 @media screen and (min-width: 992px) {
-    .a__titleTextLeft{
-        font-size:2.5cm;
+    .a__titleTextLeftSmaller{
+        font-size:2cm;
         font-weight: lighter;
         letter-spacing: 75px;
     }
 }
 @media screen and (min-width: 1200px) {
-
-    .a__titleTextLeft{
-        font-size:3.5cm;
+    .a__titleTextLeftContainer{
+        bottom:3%;
+    }
+    .a__titleTextLeftSmaller{
+        font-size:2.8cm;
         font-weight: lighter;
         letter-spacing: 75px;
     }
 }
 @media screen and (min-width: 1800px) {
-
-    .a__titleTextLeft{
-        font-size:4.5cm;
+    .a__titleTextLeftContainer{
+        bottom:0%;
+        z-index:10 ;
+    }
+    .a__titleTextLeftSmaller{
+        font-size:3.5cm;
         font-weight: lighter;
         letter-spacing: 105px;
     }

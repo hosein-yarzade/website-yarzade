@@ -1,5 +1,5 @@
 .side_one {
-    overflow-y: hidden;
+    overflow: hidden;
     display: flex;
     flex:1;
     justify-content: center;
@@ -93,13 +93,20 @@
     right: 18%;
     top: 70%;
 }
+.a__titleTextLeftContainer{
+    position: absolute;
+    transition: right 4s ;
+    bottom:15%;
+}
 .a__titleTextContainer{
     position: absolute;
     transition: left 3s ;
     top:15%;
 }
 @media screen and (min-width: 728px) {
-
+    .a__titleTextLeftContainer{
+        bottom:10%;
+    }
     .personal-image-one {
         width: 40%;
     }
@@ -238,6 +245,9 @@
     }
 }
 @media screen and (min-width: 1200px) {
+    .a__titleTextLeftContainer{
+        bottom:3%;
+    }
     .a__titleTextContainer{
         top:8%;
     }
@@ -282,6 +292,10 @@
     }
 }
 @media screen and (min-width: 1800px) {
+    .a__titleTextLeftContainer{
+        bottom:1%;
+        z-index:10 ;
+    }
     .a__titleTextContainer{
         top:2%;
     }
