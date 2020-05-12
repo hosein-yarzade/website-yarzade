@@ -3,6 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="b57d0eb1-4c04-4cd7-bb41-75bc3b64088b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Organism/firstPartOfHome/firstPartOfHome.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Organism/firstPartOfHome/firstPartOfHome.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Organism/secoundPartOfHome/secondPartOfHome.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Organism/secoundPartOfHome/secondPartOfHome.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Organism/secoundPartOfHome/secondPartOfHome.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Organism/secoundPartOfHome/secondPartOfHome.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Organism/thirdPart/thirdPart.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Organism/thirdPart/thirdPart.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Organism/thirdPart/thirdPart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Organism/thirdPart/thirdPart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +35,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/component/Atom/titleTextSmaller" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/media/personal" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -42,19 +48,19 @@
     <property name="nodejs_package_manager_path" value="yarn" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\my website\source\website-yarzade\public\media\personal" />
+      <recent name="D:\my website\source\website-yarzade\src\component\Atom\titleTextSmaller" />
+      <recent name="D:\my website\source\website-yarzade\src\component\Organism\thirdPart" />
+      <recent name="D:\my website\source\website-yarzade\src\component\Organism\secoundPartOfHome" />
+      <recent name="D:\my website\source\website-yarzade\src\component\Molecules\containerTextPart" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\my website\source\website-yarzade\src\" />
       <recent name="E:\react.js\hosein-yarzade\src\component\Molecules\menuContainer" />
       <recent name="E:\react.js\hosein-yarzade\src\pages\home" />
       <recent name="E:\react.js\hosein-yarzade\src" />
       <recent name="E:\react.js\hosein-yarzade\public\media\img\backGround" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\my website\source\website-yarzade\src\component\Atom\titleTextSmaller" />
-      <recent name="D:\my website\source\website-yarzade\public\media\personal" />
-      <recent name="D:\my website\source\website-yarzade\src\component\Organism\thirdPart" />
-      <recent name="D:\my website\source\website-yarzade\src\component\Organism\secoundPartOfHome" />
-      <recent name="D:\my website\source\website-yarzade\src\component\Molecules\containerTextPart" />
     </key>
   </component>
   <component name="RunManager">
@@ -89,7 +95,8 @@
       <workItem from="1589140138908" duration="3498000" />
       <workItem from="1589194709197" duration="7000" />
       <workItem from="1589205951962" duration="15361000" />
-      <workItem from="1589230131542" duration="583000" />
+      <workItem from="1589230131542" duration="1377000" />
+      <workItem from="1589273195880" duration="20780000" />
     </task>
     <task id="LOCAL-00001" summary="make atomic design &amp; add first part at home page">
       <created>1569098494312</created>
@@ -140,17 +147,22 @@
       <option name="project" value="LOCAL" />
       <updated>1589227502912</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="check for commit">
+      <created>1589230845528</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1589230845529</updated>
+    </task>
+    <task id="LOCAL-00009" summary="check for commit 2">
+      <created>1589230890118</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1589230890118</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -162,21 +174,23 @@
     <MESSAGE value="add second part and edit first part" />
     <MESSAGE value="add third part" />
     <MESSAGE value="add third part and fix overflow bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="add third part and fix overflow bug" />
+    <MESSAGE value="check for commit" />
+    <MESSAGE value="check for commit 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="check for commit 2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="684" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588512906605">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="684" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1588512906605" />
-    <state x="585" y="115" key="CommitChangelistDialog2" timestamp="1589230844628">
+    <state x="585" y="115" key="CommitChangelistDialog2" timestamp="1589230889065">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1589230844628" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1588766179536">
+    <state x="585" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1589230889065" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1589282215937">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1588766179536" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589282215937" />
     <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1588386453315">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -193,14 +207,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588386453315" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1589227597208">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1589230897984">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589227597208" />
-    <state x="656" y="252" width="607" height="536" key="find.popup" timestamp="1589222649199">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589230897984" />
+    <state x="656" y="252" width="607" height="536" key="find.popup" timestamp="1589308396049">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="252" width="607" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589222649199" />
+    <state x="656" y="252" width="607" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589308396049" />
     <state x="758" y="312" key="git4idea.merge.GitMergeDialog" timestamp="1589230412393">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

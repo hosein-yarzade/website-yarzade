@@ -42,8 +42,6 @@ class FirstPartOfHome extends Component {
                                textPart={'react native developer'}
                     />
                 </div>
-
-
                 <div className={"o__container-circle-one"}>
                     <Circle/>
                 </div>

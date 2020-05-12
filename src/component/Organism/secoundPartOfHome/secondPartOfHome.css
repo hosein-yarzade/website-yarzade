@@ -27,6 +27,17 @@
     display: flex;
     align-items: center;
 }
+.o__container-textPart-part2 {
+    display: flex;
+    align-items: center;
+    position:absolute;
+    line-height: 16px;
+    z-index: 5;
+    width: 90%;
+    height: 35%;
+    bottom: 5%;
+    transition: left 3s ;
+}
 .o__container-circle-one-partTwo{
     width: 80px;
     height: 80px;
@@ -37,17 +48,7 @@
     animation: 15s running infinite;
     animation-name: circle-one-partTwo ;
 }
-.o__container-textPart-part2 {
-    display: flex;
-    align-items: center;
-    position:absolute;
-    line-height: 16px;
-    z-index: 5;
-    width: 90%;
-    height: 35%;
-    bottom: 5%;
-    transition: right 3s ;
-}
+
 @keyframes circle-one-partTwo  {
 
     0%{
@@ -101,10 +102,8 @@
 @media screen and (min-width: 992px) {
     .o__container-textPart-part2 {
         line-height: 25px;
-        z-index: 5;
         width: 55%;
         height: 35%;
-        bottom: 5%;
         transition: left 4s ;
     }
     .personal-image-second{

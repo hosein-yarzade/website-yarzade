@@ -13,6 +13,8 @@ class Home extends Component {
             titleTextPlaceLeft : '100%',
             titleTextPlacePart2: '100%',
             textPlacePart2: '-100%',
+            titleTextPlacePart3: '-100%',
+            textPlacePart3: '-100%',
         };
     }
 
@@ -30,22 +32,40 @@ class Home extends Component {
         window.addEventListener("scroll", function () {
                     let clientWidth = document.documentElement.clientWidth;
                     if (clientWidth<500){
-                        if (this.pageYOffset < 500) {
+                        if (this.pageYOffset > 0) {
                             that.setState({titleTextPlace : '5%', titleTextPlaceLeft : '1%'});
                         }
                         if (this.pageYOffset > 500) {
-                        that.setState({titleTextPlacePart2:'3%',textPlacePart2:'5%',  titleTextPlaceLeft : '100%'});
+                        that.setState({ titleTextPlaceLeft : '100%'});
+                        }
+                        if (this.pageYOffset > 500) {
+                        that.setState({titleTextPlacePart2:'3%',textPlacePart2:'5%'});
+                        }
+                        if (this.pageYOffset > 1200 || this.pageYOffset < 500) {
+                        that.setState({titleTextPlacePart2:'100%',textPlacePart2:'-100%'});
                         }
                         // if(this.pageYOffset > 1400 || this.pageYOffset < 500){
                         //     that.setState({titleTextPlacePart2:'3%',textPlacePart2:'5%'});
                         // }
                     }
                     else {
-                    if (this.pageYOffset < 500) {
+                    if (this.pageYOffset > 0) {
                         that.setState({ titleTextPlace : '25%', titleTextPlaceLeft : '15%'});
                     }
                     if (this.pageYOffset > 500) {
-                                that.setState({titleTextPlacePart2:'3%',textPlacePart2:'5%',  titleTextPlaceLeft : '100%'});
+                                that.setState({titleTextPlaceLeft : '100%'});
+                    }
+                    if (this.pageYOffset > 500) {
+                                that.setState({titleTextPlacePart2:'3%',textPlacePart2:'5%'});
+                    }
+                    if (this.pageYOffset > 1200 || this.pageYOffset < 500) {
+                                that.setState({titleTextPlacePart2:'100%',textPlacePart2:'-100%'});
+                    }
+                    if (this.pageYOffset > 1150) {
+                            that.setState({titleTextPlacePart3:'3%',textPlacePart3:'8%'});
+                    }
+                    if (this.pageYOffset > 2100 || this.pageYOffset < 1150) {
+                            that.setState({titleTextPlacePart3:'-100%',textPlacePart3:'-100%'});
                     }
                     // if(this.pageYOffset > 1400 || this.pageYOffset < 500){
                     //         that.setState({titleTextPlacePart2:'3%',textPlacePart2:'5%'});
@@ -71,7 +91,8 @@ class Home extends Component {
                     textPlacePart2={this.state.textPlacePart2}
                 />
                 <ThirdPart
-
+                    titleTextPlacePart3={this.state.titleTextPlacePart3}
+                    textPlacePart3={this.state.textPlacePart3}
                 />
             </div>
         );
