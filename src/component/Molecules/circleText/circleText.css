@@ -1,0 +1,26 @@
+
+.m__circleTextContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    /*background-color: #C29E3D;*/
+}
+.m__circleText{
+    font-size: 25px;
+    color: #e5e5e5;
+    position: absolute;
+}
+@media screen and (min-width: 728px) {
+
+}
+@media screen and (min-width: 992px) {
+
+}
+@media screen and (min-width: 1200px) {
+
+}@media screen and (min-width: 1800px) {
+
+}
+

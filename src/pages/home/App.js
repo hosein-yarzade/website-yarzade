@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import FirstPartOfHome from "./../../component/Organism/firstPartOfHome/firstPartOfHome";
 import SecondPartOfHome from "./../../component/Organism/secoundPartOfHome/secondPartOfHome";
 import ThirdPart from "./../../component/Organism/thirdPart/thirdPart";
+import FourthOfHome from "./../../component/Organism/fourthPartOfHome/fourthOfHome";
 import './App.css';
 
 class Home extends Component {
@@ -15,6 +16,8 @@ class Home extends Component {
             textPlacePart2: '-100%',
             titleTextPlacePart3: '-100%',
             textPlacePart3: '-100%',
+            titleTextPlacePart4: '-100%',
+            showSkills:false
         };
     }
 
@@ -67,9 +70,12 @@ class Home extends Component {
                     if (this.pageYOffset > 2100 || this.pageYOffset < 1150) {
                             that.setState({titleTextPlacePart3:'-100%',textPlacePart3:'-100%'});
                     }
-                    // if(this.pageYOffset > 1400 || this.pageYOffset < 500){
-                    //         that.setState({titleTextPlacePart2:'3%',textPlacePart2:'5%'});
-                    // }
+                    if (this.pageYOffset > 2150) {
+                            that.setState({showSkills:true, titleTextPlacePart4:'8%'});
+                    }
+                    if (this.pageYOffset > 3000 || this.pageYOffset < 2150) {
+                            that.setState({showSkills:false,titleTextPlacePart4:'-100%'});
+                    }
 
                 }
             }
@@ -93,6 +99,10 @@ class Home extends Component {
                 <ThirdPart
                     titleTextPlacePart3={this.state.titleTextPlacePart3}
                     textPlacePart3={this.state.textPlacePart3}
+                />
+                <FourthOfHome
+                    titleTextPlacePart4={this.state.titleTextPlacePart4}
+                    showSkills={this.state.showSkills}
                 />
             </div>
         );
