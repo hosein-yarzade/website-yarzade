@@ -47,11 +47,21 @@ class Home extends Component {
                         if (this.pageYOffset > 1200 || this.pageYOffset < 500) {
                         that.setState({titleTextPlacePart2:'100%',textPlacePart2:'-100%'});
                         }
-                        // if(this.pageYOffset > 1400 || this.pageYOffset < 500){
-                        //     that.setState({titleTextPlacePart2:'3%',textPlacePart2:'5%'});
-                        // }
+                        if (this.pageYOffset > 1050) {
+                            that.setState({titleTextPlacePart3:'3%',textPlacePart3:'7%'});
+                        }
+                        if (this.pageYOffset > 1750 || this.pageYOffset < 1050) {
+                            that.setState({titleTextPlacePart3:'-100%',textPlacePart3:'-100%'});
+                        }
+                        if (this.pageYOffset > 1800) {
+                            that.setState({showSkills:true, titleTextPlacePart4:'7%'});
+                        }
+                        if (this.pageYOffset > 2900 || this.pageYOffset < 1800) {
+                            that.setState({showSkills:false,titleTextPlacePart4:'-100%'});
+                        }
                     }
                     else {
+
                     if (this.pageYOffset > 0) {
                         that.setState({ titleTextPlace : '25%', titleTextPlaceLeft : '15%'});
                     }

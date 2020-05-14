@@ -21,7 +21,7 @@ class FourthOfHome extends Component {
         // }
         return (
 <div className="o__sideThird">
-    <div className={'titleTextContainer'}>
+    <div className={'titleTextContainerFourth'}>
         <div style={{left:this.props.titleTextPlacePart4 }}  className={'o__titleTextContainerPart2'}>
             <TitleTextSmaller
                 titleText={'My skills'}
@@ -29,11 +29,22 @@ class FourthOfHome extends Component {
             />
         </div>
     </div>
-    {
-   this.props.showSkills ?
-    <div className={'o__CircleTextContainer o__CircleTextContainer1 '}>
-        <CircleText/>
-    </div>
+    {this.props.showSkills ?
+       <div className={'o__sideThird'}>
+            <div className={'o__CircleTextContainer o__CircleTextContainer1'} >
+                <CircleText textSkill={"adobe XD"}
+                style={{fontsize:4}}
+                />
+           </div>
+           <div className={'o__CircleTextContainer o__CircleTextContainer2'}>
+                <CircleText  textSkill={"PS"}
+                    fontSize={20}/>
+           </div>
+           <div className={'o__CircleTextContainer o__CircleTextContainer3'} >
+                <CircleText  textSkill={"PS"}
+                    fontSize={20}/>
+           </div>
+       </div>
        : null
     }
 </div>

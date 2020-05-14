@@ -13,7 +13,7 @@ class CircleText extends Component {
         return (
 <div className="m__circleTextContainer">
     <Circle/>
-    <text className="m__circleText">llll</text>
+    <text className="m__circleText" style={{fontSize:this.props.fontSize}}>{this.props.textSkill}</text>
 </div>
         );
     }

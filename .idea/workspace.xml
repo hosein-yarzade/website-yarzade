@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b57d0eb1-4c04-4cd7-bb41-75bc3b64088b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/component/Molecules/circleText/circleText.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/Molecules/circleText/circleText.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/Organism/fourthPartOfHome/fourthOfHome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/Organism/fourthPartOfHome/fourthOfHome.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Atom/titleTextSmaller/titleTextSmaller.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Atom/titleTextSmaller/titleTextSmaller.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Molecules/circleText/circleText.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Molecules/circleText/circleText.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Molecules/circleText/circleText.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Molecules/circleText/circleText.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Organism/fourthPartOfHome/fourthOfHome.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Organism/fourthPartOfHome/fourthOfHome.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Organism/fourthPartOfHome/fourthOfHome.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Organism/fourthPartOfHome/fourthOfHome.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Organism/secoundPartOfHome/secondPartOfHome.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Organism/secoundPartOfHome/secondPartOfHome.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/home/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +98,8 @@
       <workItem from="1589205951962" duration="15361000" />
       <workItem from="1589230131542" duration="1377000" />
       <workItem from="1589273195880" duration="21237000" />
-      <workItem from="1589372941075" duration="14499000" />
+      <workItem from="1589372941075" duration="14789000" />
+      <workItem from="1589477418617" duration="10141000" />
     </task>
     <task id="LOCAL-00001" summary="make atomic design &amp; add first part at home page">
       <created>1569098494312</created>
@@ -168,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589320402320</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add fourth part and that logic base">
+      <created>1589406948850</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1589406948850</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,17 +194,18 @@
     <MESSAGE value="check for commit" />
     <MESSAGE value="check for commit 2" />
     <MESSAGE value="end third part" />
-    <option name="LAST_COMMIT_MESSAGE" value="end third part" />
+    <MESSAGE value="add fourth part and that logic base" />
+    <option name="LAST_COMMIT_MESSAGE" value="add fourth part and that logic base" />
   </component>
   <component name="WindowStateProjectService">
     <state x="684" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588512906605">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="684" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1588512906605" />
-    <state x="585" y="115" key="CommitChangelistDialog2" timestamp="1589320400310">
+    <state x="585" y="115" key="CommitChangelistDialog2" timestamp="1589406947014">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1589320400310" />
+    <state x="585" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1589406947014" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1589282215937">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -215,14 +226,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588386453315" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1589320421137">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1589407083672">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589320421137" />
-    <state x="656" y="252" width="607" height="536" key="find.popup" timestamp="1589402268815">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589407083672" />
+    <state x="1045" y="216" width="607" height="536" key="find.popup" timestamp="1589492675320">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="252" width="607" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589402268815" />
+    <state x="1045" y="216" width="607" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589492675320" />
     <state x="758" y="312" key="git4idea.merge.GitMergeDialog" timestamp="1589230412393">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

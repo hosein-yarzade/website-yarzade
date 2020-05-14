@@ -13,7 +13,8 @@
 .o__titleTextContainerPart2{
     position:relative;
     transition: left 3s ;
-    top:15%;
+    z-index: 2;
+    top:14%;
 }
 .personal-image-second{
     width: 55%;
