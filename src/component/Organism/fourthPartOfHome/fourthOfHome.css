@@ -16,7 +16,6 @@
     display: flex;
     flex-direction: column;
    justify-content: start;
-  background: #155f63;
 }
 .o__skillCircleContainer{
     display: flex;
@@ -42,11 +41,19 @@
    bottom:15%;
     left:10%;
 }
+.o__containerFourthPart-circle{
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    bottom:30%;
+    left:45%;
+    z-index: 1;
+}
 .o__CircleTextContainer{
     position: absolute;
     animation: 2s ease-in ;
     animation-name: circle-Text ;
-
+    z-index: 2;
 }
 @keyframes circle-Text  {
 
@@ -64,20 +71,77 @@
 .o__CircleTextContainer1{
     width: 90px;
     height: 90px;
-    position: absolute;
     left:5%
 }.o__CircleTextContainer2{
     width: 70px;
     height: 70px;
-    position: absolute;
     left:4%;
     top:11%;
 }.o__CircleTextContainer3{
     width: 100px;
     height: 100px;
-    position: absolute;
     left:35%;
     top:5%;
+}.o__CircleTextContainer4{
+    width: 100px;
+    height: 100px;
+    left:33%;
+    top:16%;
+}.o__CircleTextContainer5{
+    width: 75px;
+    height: 75px;
+    right:10%;
+    top:15%;
+}.o__CircleTextContainer6{
+    width: 90px;
+    height: 90px;
+    right:4%;
+    top:23%;
+}.o__CircleTextContainer7{
+    width: 80px;
+    height: 80px;
+    left:4%;
+    top:35%;
+}.o__CircleTextContainer8{
+    width: 55px;
+    height: 55px;
+    left:25%;
+    top:39%;
+}.o__CircleTextContainer9{
+    width: 65px;
+    height: 65px;
+    right:28%;
+    top:40%;
+}.o__CircleTextContainer10{
+    width: 65px;
+    height: 65px;
+    right:20%;
+    top:47%;
+}.o__CircleTextContainer11{
+    width: 70px;
+    height: 70px;
+    left:10%;
+    bottom:40%;
+}.o__CircleTextContainer12{
+    width: 80px;
+    height: 80px;
+    left:25%;
+    bottom:28%;
+}.o__CircleTextContainer13{
+    width: 70px;
+    height: 70px;
+    left:20%;
+    bottom:20%;
+}.o__CircleTextContainer14{
+    width: 75px;
+    height: 75px;
+    right:25%;
+    bottom:22%;
+}.o__CircleTextContainer15{
+    width: 110px;
+    height: 110px;
+    right:27%;
+    bottom:5%;
 }
 @media screen and (min-width: 728px) {
     .titleTextContainerFourth{
@@ -88,6 +152,20 @@
         line-height: 25px;
         width: 85%;
         height: 38%;
+    }
+    .o__containerFourthPart-circle{
+        width: 200px;
+        height: 200px;
+        bottom:25%;
+        left:40%;
+    }
+    .o__containerFourthPart-circle2{
+        width: 120px;
+        height: 120px;
+        position: absolute;
+        top:5%;
+        right:5%;
+        z-index: 1;
     }
 }
 @media screen and (min-width: 992px) {
@@ -120,6 +198,94 @@
         position: absolute;
         bottom:10%;
         left:25%;
+    }
+    .o__containerFourthPart-circle{
+        width: 240px;
+        height: 240px;
+        bottom:20%;
+        left:40%;
+    }
+    .o__containerFourthPart-circle2{
+        width: 150px;
+        height: 150px;
+        top:5%;
+        right:5%;
+    }
+    @keyframes circle-Text  {
+
+        0%{
+            transform: scale(0.8);
+        }
+        50% {
+            transform: scale(1.3);
+        }
+        100% {
+            transform: scale(1.2);
+        }
+
+    }
+    .o__CircleTextContainer1{
+        width: 90px;
+        height: 90px;
+        transform: scale(1.2);
+        top:10%;
+    }.o__CircleTextContainer2{
+         width: 80px;
+         height: 80px;
+         transform: scale(1.2);
+             top:20%;
+    }.o__CircleTextContainer3{
+          width: 110px;
+          height: 110px;
+          transform: scale(1.2);
+    }.o__CircleTextContainer4{
+           width: 110px;
+           height: 110px;
+           transform: scale(1.2);
+    }.o__CircleTextContainer5{
+            width: 85px;
+            height: 85px;
+            transform: scale(1.2);
+    }.o__CircleTextContainer6{
+             width: 100px;
+             height: 100px;
+              transform: scale(1.2);
+    }.o__CircleTextContainer7{
+              width: 90px;
+              height: 90px;
+                transform: scale(1.2);
+    }.o__CircleTextContainer8{
+               width: 65px;
+               height: 65px;
+                 transform: scale(1.2);
+    }.o__CircleTextContainer9{
+                width: 75px;
+                height: 75px;
+              transform: scale(1.2);
+    }.o__CircleTextContainer10{
+                 width: 75px;
+                 height: 75px;
+                 transform: scale(1.2);
+    }.o__CircleTextContainer11{
+                  width: 80px;
+                  height: 80px;
+                     transform: scale(1.2);
+    }.o__CircleTextContainer12{
+                   width: 90px;
+                   height: 90px;
+                    transform: scale(1.2);
+    }.o__CircleTextContainer13{
+                    width: 80px;
+                    height: 80px;
+                     transform: scale(1.2);
+    }.o__CircleTextContainer14{
+                     width: 85px;
+                     height: 85px;
+                     transform: scale(1.2);
+    }.o__CircleTextContainer15{
+                      width: 120px;
+                      height: 120px;
+                   transform: scale(1.2);
     }
 }@media screen and (min-width: 1800px) {
     .titleTextContainerFourth{

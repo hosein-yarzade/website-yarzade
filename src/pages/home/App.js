@@ -80,10 +80,10 @@ class Home extends Component {
                     if (this.pageYOffset > 2100 || this.pageYOffset < 1150) {
                             that.setState({titleTextPlacePart3:'-100%',textPlacePart3:'-100%'});
                     }
-                    if (this.pageYOffset > 2150) {
+                    if (this.pageYOffset > 2300) {
                             that.setState({showSkills:true, titleTextPlacePart4:'8%'});
                     }
-                    if (this.pageYOffset > 3000 || this.pageYOffset < 2150) {
+                    if (this.pageYOffset > 3000 || this.pageYOffset < 2300) {
                             that.setState({showSkills:false,titleTextPlacePart4:'-100%'});
                     }
 
