@@ -10,6 +10,8 @@ class Home extends Component {
     constructor(props) {
         super(props);
         this.state = {
+            cursorTop:150,
+            cursorLeft:100,
             titleTextPlace : '100%',
             titleTextPlaceLeft : '100%',
             titleTextPlacePart2: '100%',
@@ -17,12 +19,13 @@ class Home extends Component {
             titleTextPlacePart3: '-100%',
             textPlacePart3: '-100%',
             titleTextPlacePart4: '-100%',
-            showSkills:false
+            showSkills:false,
         };
     }
 
     componentDidMount() {
         let that = this;
+        this.cursorMouse()
         setTimeout(()=>{
             let clientWidth = document.documentElement.clientWidth;
             if (clientWidth<500){
@@ -91,12 +94,18 @@ class Home extends Component {
             }
         );
     }
-
+    cursorMouse=()=>{
+        const that = this;
+        const cursor = document.querySelector(".cursor");
+        document.addEventListener('mousemove' , function (e) {
+            that.setState({cursorTop: e.pageY,cursorLeft:e.pageX})
+        })
+    };
 
     render() {
         return (
             <div className="app" >
-
+                <div style={{top:this.state.cursorTop , left:this.state.cursorLeft }} className={"cursor"}/>
                 {/*<MenuContainer/>*/}
                 <FirstPartOfHome
                     titleTextPlace={this.state.titleTextPlace}
