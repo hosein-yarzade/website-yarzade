@@ -4,12 +4,16 @@ import SecondPartOfHome from "./../../component/Organism/secoundPartOfHome/secon
 import ThirdPart from "./../../component/Organism/thirdPart/thirdPart";
 import FourthOfHome from "./../../component/Organism/fourthPartOfHome/fourthOfHome";
 import './App.css';
+import Cursor from "../../component/Atom/cursor/cursor";
+import LastPart from "../../component/Organism/lastPart/lastPart";
+import LoaderPage from "../../component/Atom/loaderPage/loaderPage.js";
 
 class Home extends Component {
 
     constructor(props) {
         super(props);
         this.state = {
+            loader:true,
             cursorTop:150,
             cursorLeft:100,
             titleTextPlace : '100%',
@@ -86,7 +90,7 @@ class Home extends Component {
                     if (this.pageYOffset > 2300) {
                             that.setState({showSkills:true, titleTextPlacePart4:'8%'});
                     }
-                    if (this.pageYOffset > 3000 || this.pageYOffset < 2300) {
+                    if (this.pageYOffset < 2300) {
                             that.setState({showSkills:false,titleTextPlacePart4:'-100%'});
                     }
 
@@ -96,16 +100,22 @@ class Home extends Component {
     }
     cursorMouse=()=>{
         const that = this;
-        const cursor = document.querySelector(".cursor");
         document.addEventListener('mousemove' , function (e) {
-            that.setState({cursorTop: e.pageY,cursorLeft:e.pageX})
+            that.setState({cursorTop: (e.pageY-10),cursorLeft:(e.pageX-10)})
         })
     };
-
+    endLoad=()=> {
+        setTimeout(() => {
+            this.setState({loader: true})
+        },5000);
+    };
     render() {
         return (
-            <div className="app" >
-                <div style={{top:this.state.cursorTop , left:this.state.cursorLeft }} className={"cursor"}/>
+            <div className="app" onLoad={this.endLoad}>
+                <LoaderPage
+                    loader={this.state.loader}
+                />
+                <Cursor cursorTop={this.state.cursorTop} cursorLeft ={this.state.cursorLeft } />
                 {/*<MenuContainer/>*/}
                 <FirstPartOfHome
                     titleTextPlace={this.state.titleTextPlace}
@@ -122,6 +132,9 @@ class Home extends Component {
                 <FourthOfHome
                     titleTextPlacePart4={this.state.titleTextPlacePart4}
                     showSkills={this.state.showSkills}
+                />
+                <LastPart
+
                 />
             </div>
         );

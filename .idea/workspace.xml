@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b57d0eb1-4c04-4cd7-bb41-75bc3b64088b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/component/Atom/cursor/cursor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Atom/cursor/cursor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Atom/loaderPage/loaderPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Atom/loaderPage/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Organism/lastPart/lastPart.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Organism/lastPart/lastPart.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/home/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/home/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/App.js" afterDir="false" />
@@ -31,7 +37,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/component/Molecules/circleText" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/component/Atom" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -44,19 +50,19 @@
     <property name="nodejs_package_manager_path" value="yarn" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\my website\source\website-yarzade\src\component\Atom" />
+      <recent name="D:\my website\source\website-yarzade\src\component\Organism\lastPart" />
+      <recent name="D:\my website\source\website-yarzade\src\component\Atom\cursor" />
+      <recent name="D:\my website\source\website-yarzade\src\component\Molecules\circleText" />
+      <recent name="D:\my website\source\website-yarzade\src\component\Organism\fourthPartOfHome" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\my website\source\website-yarzade\src\" />
       <recent name="E:\react.js\hosein-yarzade\src\component\Molecules\menuContainer" />
       <recent name="E:\react.js\hosein-yarzade\src\pages\home" />
       <recent name="E:\react.js\hosein-yarzade\src" />
       <recent name="E:\react.js\hosein-yarzade\public\media\img\backGround" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\my website\source\website-yarzade\src\component\Molecules\circleText" />
-      <recent name="D:\my website\source\website-yarzade\src\component\Organism\fourthPartOfHome" />
-      <recent name="D:\my website\source\website-yarzade\public\media\personal" />
-      <recent name="D:\my website\source\website-yarzade\src\component\Atom\titleTextSmaller" />
-      <recent name="D:\my website\source\website-yarzade\src\component\Organism\thirdPart" />
     </key>
   </component>
   <component name="RunManager">
@@ -95,7 +101,8 @@
       <workItem from="1589273195880" duration="21237000" />
       <workItem from="1589372941075" duration="14789000" />
       <workItem from="1589477418617" duration="10774000" />
-      <workItem from="1589544429766" duration="20148000" />
+      <workItem from="1589544429766" duration="20523000" />
+      <workItem from="1589630435105" duration="14475000" />
     </task>
     <task id="LOCAL-00001" summary="make atomic design &amp; add first part at home page">
       <created>1569098494312</created>
@@ -188,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589565743462</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="add customize cursor">
+      <created>1589579975399</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1589579975399</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,21 +221,22 @@
     <MESSAGE value="add fourth part and that logic base" />
     <MESSAGE value="add fourth part and that logic base 2" />
     <MESSAGE value="finish fourth part" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish fourth part" />
+    <MESSAGE value="add customize cursor" />
+    <option name="LAST_COMMIT_MESSAGE" value="add customize cursor" />
   </component>
   <component name="WindowStateProjectService">
     <state x="684" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588512906605">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="684" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1588512906605" />
-    <state x="585" y="115" key="CommitChangelistDialog2" timestamp="1589565741459">
+    <state x="585" y="115" key="CommitChangelistDialog2" timestamp="1589579974382">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1589565741459" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1589282215937">
+    <state x="585" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1589579974382" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1589656019463">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589282215937" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589656019463" />
     <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1588386453315">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -238,17 +253,21 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588386453315" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1589565761769">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1589579997344">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589565761769" />
-    <state x="1045" y="216" width="607" height="536" key="find.popup" timestamp="1589560697448">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589579997344" />
+    <state x="1045" y="216" width="607" height="536" key="find.popup" timestamp="1589658204411">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1045" y="216" width="607" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589560697448" />
+    <state x="1045" y="216" width="607" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589658204411" />
     <state x="758" y="312" key="git4idea.merge.GitMergeDialog" timestamp="1589230412393">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="758" y="312" key="git4idea.merge.GitMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589230412393" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1589632353792">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589632353792" />
   </component>
 </project>
