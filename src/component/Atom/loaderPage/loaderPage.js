@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-import './style.css';
+import './loaderPage.css';
 
 class loaderPage extends Component {
     constructor(props) {

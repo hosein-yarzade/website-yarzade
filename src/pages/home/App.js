@@ -5,6 +5,7 @@ import ThirdPart from "./../../component/Organism/thirdPart/thirdPart";
 import FourthOfHome from "./../../component/Organism/fourthPartOfHome/fourthOfHome";
 import './App.css';
 import Cursor from "../../component/Atom/cursor/cursor";
+import MenuContainer from "../../component/Molecules/menuContainer/menuContainer";
 import LastPart from "../../component/Organism/lastPart/lastPart";
 import LoaderPage from "../../component/Atom/loaderPage/loaderPage.js";
 
@@ -107,7 +108,7 @@ class Home extends Component {
     endLoad=()=> {
         setTimeout(() => {
             this.setState({loader: false})
-        },5000);
+        },1000);
     };
     render() {
         return (
@@ -115,9 +116,10 @@ class Home extends Component {
                 <LoaderPage
                     loader={this.state.loader}
                 />
-                <Cursor cursorTop={this.state.cursorTop} cursorLeft ={this.state.cursorLeft } />
-                {/*<MenuContainer/>*/}
+                {/*<Cursor cursorTop={this.state.cursorTop} cursorLeft ={this.state.cursorLeft } />*/}
+                <MenuContainer/>
                 <FirstPartOfHome
+
                     titleTextPlace={this.state.titleTextPlace}
                     titleTextPlaceLeft={this.state.titleTextPlaceLeft}
                 />
@@ -130,10 +132,11 @@ class Home extends Component {
                     textPlacePart3={this.state.textPlacePart3}
                 />
                 <FourthOfHome
+
                     titleTextPlacePart4={this.state.titleTextPlacePart4}
                     showSkills={this.state.showSkills}
                 />
-                <LastPart
+                <LastPart onLoad={this.endLoad}
 
                 />
             </div>

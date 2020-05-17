@@ -33,31 +33,40 @@ class menuContainer extends Component {
     render() {
         return (
             <div className="a__allContainerMenu">
-                {/*<div className="a__skinMenu">*/}
                     <div className="a__containerMenu">
                         <div className="a__innerContainerMenu">
-                            <img className="iconMenuLogo" src="media/img/logo/logo.png" alt=""/>
                             <div className="a__test pointer" onClick={this.menu}>
                                 <img id="iconMenuOpen" src="media/img/icons/menu.svg" alt=""/>
                                 <img id="iconMenuClose" src="media/img/icons/close.png" alt=""/>
                             </div>
-
                         </div>
-
                     </div>
-                {/*</div>*/}
 
                 <div id='menuAction' className="a__menuPage">
                     <div id='menuItemsView' className="a__menuItemsView">
                         <MenuItem
-                            id={'item1'}
+                            onclick={this.menu}
+                            id={'#item1'}
                             itemHover={this.hover_items}
                             textItemMenu={"hosein"}
                         />
                         <MenuItem
-                            id={'item2'}
+                            onclick={this.menu}
+                            id={'#item2'}
                             itemHover={this.hover_items}
-                            textItemMenu={"yarzade"}
+                            textItemMenu={"about me"}
+                        />
+                        <MenuItem
+                            onclick={this.menu}
+                            id={'#item3'}
+                            itemHover={this.hover_items}
+                            textItemMenu={"my experience"}
+                        />
+                        <MenuItem
+                            onclick={this.menu}
+                            id={'#item4'}
+                            itemHover={this.hover_items}
+                            textItemMenu={"my skills"}
                         />
 
                     </div>

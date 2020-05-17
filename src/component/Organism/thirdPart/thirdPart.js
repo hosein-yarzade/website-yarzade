@@ -15,7 +15,7 @@ class ThirdPart extends Component {
 
     render() {
         return (
-<div className="o__sideThird">
+<div className="o__sideThird" id="item3">
     <div className={'titleTextContainer'}>
         <div style={{left:this.props.titleTextPlacePart3 }}  className={'o__titleTextContainerPart2'}>
             <TitleTextSmaller

@@ -20,7 +20,7 @@ class FourthOfHome extends Component {
         //     className += 'o__CircleTextContainer';
         // }
         return (
-<div className="o__sideThird">
+<div className="o__sideThird" id="item4">
     <div className={'titleTextContainerFourth'}>
         <div style={{left:this.props.titleTextPlacePart4 }}  className={'o__titleTextContainerPart2'}>
             <TitleTextSmaller

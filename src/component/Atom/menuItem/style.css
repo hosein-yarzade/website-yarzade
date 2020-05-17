@@ -1,7 +1,8 @@
 .a__containerMenuItem {
     width: 80%;
     height: 10%;
-    margin-top: 40px;
+    /*margin-top: 40px;*/
+    /*background-color: white;*/
 }
 .a__borderBottom{
     content: '';
@@ -22,27 +23,29 @@
 }
 .a__divAnimateItem1{
     display:inline ;
-    width: 120px;
-    height: 250px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
     top: -50px;
     left: 9%;
     position: relative;
     z-index: -1;
     -webkit-transition: top .5s;
     transition: top .5s;
-    background-color: #0f3034;
+    background-color: #1e1e1e;
 }
 .a__divAnimateItem2{
     display:inline ;
-    width: 80px;
-    height: 190px;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
     bottom: 450px;
     right: 65%;
     position: relative;
     z-index: -1;
     -webkit-transition: top .5s;
     transition: bottom .5s;
-    background-color: #155f63;
+    background-color: #b4b4b4;
 }
 .a__innerContainerMenuItem {
     width: 100%;
@@ -56,7 +59,7 @@
 .a__TextMenuItem{
     font-size: 1.6em;
     font-weight: 500;
-    color: #20fbff;
+    color: #1e1e1e;
     text-decoration-style: solid;
     transition: color ease-out 1s;
 }
@@ -86,12 +89,12 @@
 
     .a__containerMenuItem:hover .a__divAnimateItem1 {
         display:flex ;
-        top: -200px;
+        top: -180px;
 
     }
     .a__containerMenuItem:hover .a__divAnimateItem2 {
         display:flex ;
-        bottom: 350px;
+        bottom: 200px;
 
     }
     .a__containerMenuItem:hover .a__borderBottom {
@@ -103,6 +106,23 @@
 }
 
 @media screen and (min-width: 1200px) {
+    .a__containerMenuItem {
+        width: 280px;
+        height: 100px;
+        margin-top: 0;
+
+    }
+    .a__TextMenuItem{
+        font-size: 2.8em;
+    }
+}
+@media screen and (min-width: 1800px) {
+    .a__containerMenuItem {
+        width: 320px;
+        height: 100px;
+        margin-top: 0;
+
+    }
     .a__TextMenuItem{
         font-size: 3em;
     }

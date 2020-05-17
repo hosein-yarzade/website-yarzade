@@ -17,7 +17,7 @@ class FirstPartOfHome extends Component {
 
     render() {
         return (
-            <div className="side_one">
+            <div className="side_one" id="item1">
 
                  <div style={{left:this.props.titleTextPlace }}  className={'a__titleTextContainer'}>
                     <TitleText

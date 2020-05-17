@@ -13,7 +13,7 @@ class SecondPartOfHome extends Component {
 
     render() {
         return (
-<div className="o__sideTwo">
+<div className="o__sideTwo" id="item2">
     <div className={'titleTextContainer'}>
         <div style={{left:this.props.titleTextPlacePart2 }}  className={'o__titleTextContainerPart2'}>
             <TitleText
