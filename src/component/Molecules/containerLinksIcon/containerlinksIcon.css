@@ -1,0 +1,27 @@
+
+.m__containerLinksIcon {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+}
+.m__innerContainerLinksIcon{
+
+}
+@media screen and (min-width: 728px) {
+
+}
+
+@media screen and (min-width: 992px) {
+
+}
+
+@media screen and (min-width: 1200px) {
+
+}
+
+@media screen and (min-width: 1800px) {
+
+}
+

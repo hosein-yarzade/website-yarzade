@@ -3,14 +3,15 @@
     justify-content: center;
     align-items: center;
 }
+
 .a__containerMenu {
-    width:45px;
+    width: 45px;
     height: 40px;
     border-radius: 50%;
     position: fixed;
     z-index: 10;
     top: 20px;
-    right:20px ;
+    right: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,8 +24,9 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    transition: color 1000ms ease ;
+    transition: color 1000ms ease;
 }
+
 .a__test {
     width: 100%;
     height: 100%;
@@ -33,21 +35,25 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    cursor:pointer;
+    cursor: pointer;
 }
+
 .iconMenuLogo {
     position: absolute;
     width: 50px;
     left: 10px;
 }
+
 #iconMenuOpen {
     width: 25px;
     display: inline;
 }
+
 #iconMenuClose {
     width: 30px;
     display: none;
 }
+
 .a__menuPage {
     position: fixed;
     flex-direction: column;
@@ -60,8 +66,10 @@
     right: 20px;
     z-index: 8;
     background-color: #C29E3D;
+    opacity: 0.9;
     transition: width ease-out 500ms;
 }
+
 .a__menuItemsView {
     position: absolute;
     width: 100%;
@@ -70,9 +78,11 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-
 }
-
+.m__linkIconMenu{
+    width: 100%;
+    height: 100px;
+}
 @media screen and (min-width: 728px) {
 
 }
@@ -89,12 +99,13 @@
         align-items: flex-end;
 
     }
+
     .a__containerMenu {
         /*direction: rtl;*/
-        width:55px;
+        width: 55px;
         height: 50px;
         top: 30px;
-        right:25px ;
+        right: 25px;
 
     }
 }

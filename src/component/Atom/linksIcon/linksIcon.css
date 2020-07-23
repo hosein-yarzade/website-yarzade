@@ -1,0 +1,31 @@
+
+.view-link-icon {
+    width: 50px;
+    height: 50px;
+}
+.view-link-icon span:hover {
+    /*fill: white;*/
+    filter: invert(0.5) sepia(1) hue-rotate(200deg);
+}
+.links-icon {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+.links-icon :hover{
+    fill: white;
+    color: white;
+}
+@media screen and (min-width: 728px) {
+
+}
+@media screen and (min-width: 992px) {
+
+}
+@media screen and (min-width: 1200px) {
+
+}
+@media screen and (min-width: 1800px) {
+
+}
+
