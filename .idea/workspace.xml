@@ -2,24 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b57d0eb1-4c04-4cd7-bb41-75bc3b64088b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/media/img/icons/github.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/media/img/icons/instagram.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/media/img/icons/linkedin.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/media/img/icons/telegram.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/Atom/linksIcon/linksIcon.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/Atom/linksIcon/linksIcon.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/Molecules/containerLinksIcon/containerLinksIcon.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/Molecules/containerLinksIcon/containerlinksIcon.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helper/HoseinYartzade.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/image/icons/github.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Molecules/menuContainer/menuContainer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Molecules/menuContainer/menuContainer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Molecules/menuContainer/menuContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Molecules/menuContainer/menuContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Organism/lastPart/lastPart.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Organism/lastPart/lastPart.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Organism/lastPart/lastPart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Organism/lastPart/lastPart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Organism/secoundPartOfHome/secondPartOfHome.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Organism/secoundPartOfHome/secondPartOfHome.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Organism/thirdPart/thirdPart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Organism/thirdPart/thirdPart.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +107,8 @@
       <workItem from="1590316811117" duration="137000" />
       <workItem from="1591968277024" duration="1849000" />
       <workItem from="1595444995778" duration="235000" />
-      <workItem from="1595512451635" duration="15048000" />
+      <workItem from="1595512451635" duration="15203000" />
+      <workItem from="1595779440893" duration="6449000" />
     </task>
     <task id="LOCAL-00001" summary="make atomic design &amp; add first part at home page">
       <created>1569098494312</created>
@@ -243,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589745320724</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="add link icons">
+      <created>1595533491098</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1595533491098</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,17 +258,18 @@
     <MESSAGE value="add customize cursor" />
     <MESSAGE value="add lastPart and add loaderPage" />
     <MESSAGE value="add menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="add menu" />
+    <MESSAGE value="add link icons" />
+    <option name="LAST_COMMIT_MESSAGE" value="add link icons" />
   </component>
   <component name="WindowStateProjectService">
     <state x="684" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588512906605">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="684" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1588512906605" />
-    <state x="585" y="115" key="CommitChangelistDialog2" timestamp="1589745317838">
+    <state x="585" y="115" key="CommitChangelistDialog2" timestamp="1595533488433">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1589745317838" />
+    <state x="585" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595533488433" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1595532401009">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -300,10 +294,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1589983268605" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1589745334989">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1595533549685">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589745334989" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595533549685" />
     <state x="0" y="0" width="1915" height="1026" maximized="true" key="dock-window-1" timestamp="1589972061379">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -29,7 +29,7 @@ class SecondPartOfHome extends Component {
     </div>
     <div className={"o__container-textPart-part2"} style={{left:this.props.textPlacePart2}}>
         <TextPart
-            textPart={<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias doloribus fugiat impedit inventore velit. Dolores laudantium sit unde. Adipisci, delectus.</p>}
+            textPart={<p> My name is Hosein Yarzade and i was born in December 5, 1997 <br/>I am looking for progress in programming and creating interesting ideas to solve the problems of human society and its implementation. I love drawing and painting and music and I paint in my spare time.</p>}
         />
     </div>
     <div className={"o__container-circleDashPart2"}>
