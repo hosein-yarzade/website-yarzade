@@ -32,7 +32,7 @@ class ThirdPart extends Component {
         <TextPart
             textPart={<p> ِِِDR.autol  . KIA  _ Jan 2018 - Mar 2019 <br/>Startup about car service that eventually failed <br/> React Native & Front-end developer _ scrum method<br/><br/>
             Helsa . Baman _ May 2019 - Oct 2019 <br/> Startup about online laundry on site <br/> React Native Developer <br/><br/>
-            Karatech Group _ Feb 2020 – Present  <br/>Startup about smart home یم We manage it with friends<br/> Full stack developer
+            Karatech Group _ Feb 2020 – Present  <br/>Startup about smart home , We manage it with friends<br/> Full stack developer
 
             </p>
 

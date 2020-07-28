@@ -107,7 +107,7 @@ class Home extends Component {
     endLoad = () => {
         setTimeout(() => {
             this.setState({loader: false})
-        }, 1000);
+        }, 3000);
     };
 
     render() {
