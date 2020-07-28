@@ -21,11 +21,11 @@ class LastPart extends Component {
                         linkIcon={'./media/img/icons/linkedin.svg'}
                     />
                     <ContainerLinksIcon
-                        addressLink={'https://github.com/hosein-yarzade'}
+                        addressLink={"https://github.com/hosein-yarzade"}
                         linkIcon={'./media/img/icons/github.svg'}
                     />
                     <ContainerLinksIcon
-                        addressLink={'https://t.me/js_hosein'}
+                        addressLink={"https://t.me/js_hosein"}
                         linkIcon={'./media/img/icons/telegram.svg'}
                     />
                     <ContainerLinksIcon

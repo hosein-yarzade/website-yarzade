@@ -14,9 +14,9 @@ class ContainerLinksIcon extends Component {
         const {addressLink ,linkIcon}= this.props;
         return (
             <div className="m__containerLinksIcon" >
-                <ExternalLink  target="_blank" href={addressLink} >
+                <a  href={addressLink} target="_blank">
                 <LinksIcon linkIcon={linkIcon}/>
-                </ExternalLink>
+                </a>
             </div>
         );
     }

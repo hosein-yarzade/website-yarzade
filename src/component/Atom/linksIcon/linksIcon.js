@@ -10,13 +10,13 @@ class LinksIcon extends Component {
 
     render() {
         return (
-            <a className="view-link-icon" href='www.google.com'>
+            <div className="view-link-icon" >
                 {/*<img className={'links-icon'} src={this.props.linkIcon}/>*/}
                 <span style={{
                     backgroundImage: `url(${this.props.linkIcon})`, backgroundPosition: 'center',
                     backgroundSize: 'cover',
                 }} className={'links-icon'}></span>
-            </a>
+            </div>
         );
     }
 }
